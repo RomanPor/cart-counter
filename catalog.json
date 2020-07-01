@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "name": "Телефон",
+    "quantity": 1,
+    "currency": "RUB",
+    "price": "15000"
+  },
+  {
+    "id": 2,
+    "name": "Ноутбук",
+    "quantity": 1,
+    "currency": "RUB",
+    "price": "33000"
+  },
+  {
+    "id": 3,
+    "name": "Телевизор",
+    "quantity": 1,
+    "currency": "RUB",
+    "price": "50000"
+  },
+  {
+    "id": 4,
+    "name": "Холодильник",
+    "quantity": 1,
+    "currency": "RUB",
+    "price": "40000"
+  },
+  {
+    "id": 5,
+    "name": "Кондиционер",
+    "quantity": 1,
+    "currency": "RUB",
+    "price": "35000"
+  }
+]

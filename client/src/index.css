@@ -1,0 +1,35 @@
+@import "~materialize-css/dist/css/materialize.min.css";
+
+.card-select {
+    margin-bottom: 8px;
+}
+
+.title-with-btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+.title-with-btn h2 {
+    margin: 0;
+}
+
+.request-error {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+    color: red;
+}
+
+.request-error span {
+    margin-left: 4px;
+}
+
+
+.collection-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
