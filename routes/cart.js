@@ -8,7 +8,6 @@ router.post('/count', (req, res) => {
     sum['RUB'] = req.body.reduce(function(sum, current) {
         return sum + (current.price * current.quantity);
     }, 0);
-    console.log(sum);
     getValute().then((data) => {
         Object.keys(data).forEach(it => {
             sum[it] = (sum['RUB'] / data[it]).toFixed(2);
